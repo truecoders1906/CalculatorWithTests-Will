@@ -1,0 +1,8 @@
+﻿
+namespace CalculatorWithTests
+{
+    class Calculator
+    {
+        
+    }
+}
