@@ -22,8 +22,7 @@ namespace CalculatorTests.Tests
             Calculator calculate = new Calculator();
 
             //Act           
-             int? answer = calculate.Add(value1, value2);  //<- this is what is giving me trouble
-            //int? answer = (value1 + value2); //Need to make above line work, so far it's giving me trouble.
+             int? answer = calculate.Add(value1, value2);  
 
             //Assert
             Assert.Equal(expectedAnswer, answer);
